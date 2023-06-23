@@ -1,0 +1,113 @@
+body{
+    background-color: #ECF1F0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+navbar {
+    padding: 10px;
+}
+
+.btn-green {
+    background-color: #00A651;
+    color: #fff;
+    border: 1px solid #00A651;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-grey {
+    background-color: #676767;
+    color: #fff;
+    border: 1px solid #676767;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 16px;
+    font-size: 19px;
+}
+
+.subtitle-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 19px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text {
+    padding: 0px 21px;
+    width: 316px;
+}
+
+img {
+    border-radius: 10px;
+    width: 433px;
+    height: 385px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.cards-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px;
+}
+
+.card-1 {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 433px;
+}
+
+.card-1, .subtitle {
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+input[type="button"] {
+    background-color: #00A651;
+    color: #eee;
+    padding: 15px 50px;
+    border: 1px solid #00A651 ;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: grey;
+}
